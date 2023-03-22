@@ -1,0 +1,12 @@
+.tile {
+    display: grid;
+    place-content: center;
+}
+
+.tile-black {
+    background-color: var(--color-tile-black);
+}
+
+.tile-white {
+    background-color: var(--color-tile-white);
+}

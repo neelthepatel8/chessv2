@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  --board-width: 700px;
+  --num-tiles: 8;
+  --tile-width: calc(var(--board-width) / var(--num-tiles));
+
+  --color-bg-black: #2c2d30;
+  --color-tile-black: #759656;
+  --color-tile-white: #eeeed2;
+}
+
+#app {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+
+  background-color: var(--color-bg-black);
+}
